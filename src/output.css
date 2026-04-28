@@ -435,6 +435,26 @@ nav {
   box-shadow: 0 0 0 2px #ff7a1a;
   color: #ff7a1a;
 }
+.hero-image {
+  animation: float 3s ease-in-out infinite;
+  animation: zoom 3s ease-in-out infinite;
+}
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+@keyframes zoom {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+}
 @property --tw-font-weight {
   syntax: "*";
   inherits: false;
