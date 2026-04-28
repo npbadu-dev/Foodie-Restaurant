@@ -1,1 +1,5 @@
 @import "tailwindcss";
+.main-logo{
+    height: 102px;
+    width: 102px;
+}
