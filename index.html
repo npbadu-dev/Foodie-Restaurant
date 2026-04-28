@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foodie</title>
-    <link rel="stylesheet" href="src/input.css" />
+    <link rel="stylesheet" href="/src/input.css" />
     <link rel="stylesheet" href="src/output.css" />
     <script
       src="https://kit.fontawesome.com/79fc14f2fb.js"
@@ -37,11 +37,17 @@
               /></a>
             </li>
             <div class="nav-link flex gap-8 mt-4">
-              <li><a href="">Home</a></li>
-              <li><a href="">Orders</a></li>
-              <li><a href="">Restaurants</a></li>
-              <li><a href="">Offers</a></li>
-              <li><a href="">Track Order</a></li>
+              <li><a href="index.html" class="nav-item active">Home</a></li>
+              <li>
+                <a href="/section/orders.html" class="nav-item">Orders</a>
+              </li>
+              <li><a href="/section/restaurants.html">Restaurants</a></li>
+              <li>
+                <a href="/section/offers.html" class="nav-item">Offers</a>
+              </li>
+              <li>
+                <a href="/section/track.html" class="nav-item">Track Order</a>
+              </li>
             </div>
             <div class="icon-nav flex gap-8 mt-4">
               <li class="flex gap-2">
@@ -60,7 +66,7 @@
               <li>
                 <div class="cart-logo logo-normal">
                   <a href="#">
-                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-solid fa-cart-shopping nav-cart-icon"></i>
                   </a>
                 </div>
               </li>
@@ -89,7 +95,8 @@
                   type="text"
                   name=""
                   id=""
-                  placeholder="Enter your delivery address" class="search-box-input"
+                  placeholder="Enter your delivery address"
+                  class="search-box-input"
                 />
               </div>
               <div class="hero-search-btn">
@@ -132,7 +139,7 @@
               alt="an image of food"
               class="hero-image"
             />
-            <div class="hot-deals flex ">
+            <div class="hot-deals flex">
               <i class="fa-solid fa-fire text-2xl text-amber-300 pt-3 pr-2"></i>
               <div class="hot-deals-text">
                 <div class="hot-upperText">Hot Deals</div>
@@ -150,5 +157,6 @@
       <div class="subscribe-section"></div>
       <footer></footer>
     </div>
+    <script src="src/script.js"></script>
   </body>
 </html>

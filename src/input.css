@@ -35,8 +35,8 @@ span {
   display: inline-block;
   font-size: 16px;
 }
-nav{
-    background-color: #fff;
+nav {
+  background-color: #fff;
 }
 .nav-link {
   font-size: 18px;
@@ -63,9 +63,9 @@ nav{
   width: 80%;
   border-radius: 16px;
 }
-.search-box-input:focus{
-outline: none;
-box-shadow: none;
+.search-box-input:focus {
+  outline: none;
+  box-shadow: none;
 }
 .search-location-icon,
 .feature-icon {
@@ -100,41 +100,102 @@ box-shadow: none;
   margin-top: 38px;
 }
 .feature-icon {
-  background: #ffe8d9; 
-  padding: 12px; 
+  background: #ffe8d9;
+  padding: 12px;
   border-radius: 10px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
 }
-.feature-text-heading{
-    font-size: 16px;
-    font-weight: 600;
-    color: #333;
+.feature-text-heading {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
 }
-.feature-text-sub-heading{
-    font-size: 13px;
-    font-weight: 500;
-    color: #666;
+.feature-text-sub-heading {
+  font-size: 13px;
+  font-weight: 500;
+  color: #666;
 }
-.hot-deals{
-    background-color: #fff;
-    width: 200px;
-    border: 2px solid rgba(255, 235, 205, 0.654);
-    padding: 8px 18px;
-    border-radius: 16px;
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
+.hot-deals {
+  background-color: #fff;
+  width: 200px;
+  border: 2px solid rgba(255, 235, 205, 0.654);
+  padding: 8px 18px;
+  border-radius: 16px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
-.hot-upperText{
-    font-size: 18px;
-    font-weight: 700;
+.hot-upperText {
+  font-size: 18px;
+  font-weight: 700;
 }
-.hot-lowerText{
-    font-size: 16px;
-    font-weight: 400;
-    color: #555;
+.hot-lowerText {
+  font-size: 16px;
+  font-weight: 400;
+  color: #555;
+}
+
+/* navigation styling */
+.nav-link {
+  padding-top: 10px;
+}
+.nav-link {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-link li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  position: relative;
+  padding-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.nav-link li a:hover {
+  color: #ff7a1a;
+}
+
+/* Active link style */
+.nav-link li a.active {
+  color: orange;
+}
+
+.nav-link li a.active::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: orange;
+  left: 0;
+  bottom: 0;
+}
+
+.lower-text {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.lower-text:hover {
+  color: #ff7a1a;
+}
+.nav-cart-icon{
+  font-size: 22px;
+  transition: all 0.3s ease-in-out;
+}
+.nav-cart-icon:hover {
+  color: #ff7a1a;
+}
+.login-btn-nav{
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 0 2px transparent;
+}
+.login-btn-nav:hover {
+  background-color: #fefbfa;
+  box-shadow: 0 0 0 2px #ff7a1a;
+  color: #ff7a1a;
 }
 
 
