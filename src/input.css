@@ -1,5 +1,58 @@
 @import "tailwindcss";
-.main-logo{
-    height: 102px;
-    width: 102px;
+.main-logo {
+  height: 80px;
+  width: 80px;
+}
+
+body {
+  font-family: Inter;
+}
+.logo-normal {
+  font-size: 18px;
+}
+header {
+  background-color: #fed0a1;
+  padding: 10px;
+  cursor: pointer;
+}
+span {
+  font-weight: 800;
+  color: #e0a25b;
+}
+.location-icon,
+.cart-logo {
+  margin-top: 10px;
+}
+.login-btn-nav {
+  background: #ff7a1a;
+  color: white;
+  border-radius: 8px;
+  padding: 8px 18px;
+  margin-top: -2px;
+  display: inline-block;
+  font-size: 16px;
+  
+}
+.nav-link{
+    font-size: 18px;
+    font-weight: 600;
+}
+/* hero section */
+.hero-section{
+    height: 80vh;
+    
+}
+.hero-image{
+    height: 380px;
+    width: 400px;
+    border-radius: 50%;
+}
+.hero-search-bar{
+    box-shadow: 0 0 0 2px #f5f5f5;
+    padding: 8px;
+    width: 80%;
+    border-radius: 16px;
+}
+.search-location-icon{
+    color: #ff7a1a;
 }

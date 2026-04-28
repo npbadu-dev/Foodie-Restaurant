@@ -1,4 +1,5 @@
 /*! tailwindcss v4.2.4 | MIT License | https://tailwindcss.com */
+@layer properties;
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
@@ -6,6 +7,11 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-yellow-200: oklch(94.5% 0.129 101.54);
+    --spacing: 0.25rem;
+    --text-sm: 0.875rem;
+    --text-sm--line-height: calc(1.25 / 0.875);
+    --font-weight-bold: 700;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
   }
@@ -158,8 +164,131 @@
     display: none !important;
   }
 }
-@layer utilities;
+@layer utilities {
+  .mx-4 {
+    margin-inline: calc(var(--spacing) * 4);
+  }
+  .mt-2 {
+    margin-top: calc(var(--spacing) * 2);
+  }
+  .mt-4 {
+    margin-top: calc(var(--spacing) * 4);
+  }
+  .flex {
+    display: flex;
+  }
+  .hidden {
+    display: none;
+  }
+  .w-screen {
+    width: 100vw;
+  }
+  .flex-col {
+    flex-direction: column;
+  }
+  .justify-around {
+    justify-content: space-around;
+  }
+  .justify-between {
+    justify-content: space-between;
+  }
+  .gap-2 {
+    gap: calc(var(--spacing) * 2);
+  }
+  .gap-8 {
+    gap: calc(var(--spacing) * 8);
+  }
+  .bg-yellow-200 {
+    background-color: var(--color-yellow-200);
+  }
+  .pt-0\.5 {
+    padding-top: calc(var(--spacing) * 0.5);
+  }
+  .text-center {
+    text-align: center;
+  }
+  .text-sm {
+    font-size: var(--text-sm);
+    line-height: var(--tw-leading, var(--text-sm--line-height));
+  }
+  .font-bold {
+    --tw-font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-bold);
+  }
+  .text-\[\#ffce74\] {
+    color: #ffce74;
+  }
+  .md\:block {
+    @media (width >= 48rem) {
+      display: block;
+    }
+  }
+  .md\:flex {
+    @media (width >= 48rem) {
+      display: flex;
+    }
+  }
+}
 .main-logo {
-  height: 102px;
-  width: 102px;
+  height: 80px;
+  width: 80px;
+}
+body {
+  font-family: Inter;
+}
+.logo-normal {
+  font-size: 18px;
+}
+header {
+  background-color: #fed0a1;
+  padding: 10px;
+  cursor: pointer;
+}
+span {
+  font-weight: 800;
+  color: #e0a25b;
+}
+.location-icon, .cart-logo {
+  margin-top: 10px;
+}
+.login-btn-nav {
+  background: #ff7a1a;
+  color: white;
+  border-radius: 8px;
+  padding: 8px 18px;
+  margin-top: -2px;
+  display: inline-block;
+  font-size: 16px;
+}
+.nav-link {
+  font-size: 18px;
+  font-weight: 600;
+}
+.hero-section {
+  height: 80vh;
+}
+.hero-image {
+  height: 380px;
+  width: 400px;
+  border-radius: 50%;
+}
+.hero-search-bar {
+  box-shadow: 0 0 0 2px #f5f5f5;
+  padding: 8px;
+  width: 80%;
+  border-radius: 16px;
+}
+.search-location-icon {
+  color: #ff7a1a;
+}
+@property --tw-font-weight {
+  syntax: "*";
+  inherits: false;
+}
+@layer properties {
+  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
+    *, ::before, ::after, ::backdrop {
+      --tw-font-weight: initial;
+    }
+  }
 }

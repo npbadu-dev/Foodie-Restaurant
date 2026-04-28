@@ -10,13 +10,24 @@
       src="https://kit.fontawesome.com/79fc14f2fb.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="main-container">
       <div class="hero-section">
-        <header></header>
-        <nav>
-          <ul>
+        <header class="text-center font-bold w-screen">
+          <div class="text">
+            🎉 Get 50% OFF on your first order - Use Code:
+            <span><u>FOOD50</u></span>
+          </div>
+        </header>
+        <nav class="bg-yellow-200 hidden md:block">
+          <ul class="flex justify-around">
             <li>
               <a href="#"
                 ><img
@@ -25,30 +36,102 @@
                   class="main-logo"
               /></a>
             </li>
-            <li><a href="">Home</a></li>
-            <li><a href="">Orders</a></li>
-            <li><a href="">Restaurants</a></li>
-            <li><a href="">Offers</a></li>
-            <li><a href="">Track Order</a></li>
-            <li>
-              <div class="location-icon">
-                <i class="fa-solid fa-location-dot"></i>
-              </div>
-              <div class="address-detail">
-                <div class="upper-text">Deliver to</div>
-                <div class="lower-text">
-                  New York, USA <i class="fa-solid fa-angle-down"></i>
+            <div class="nav-link flex gap-8 mt-4">
+              <li><a href="">Home</a></li>
+              <li><a href="">Orders</a></li>
+              <li><a href="">Restaurants</a></li>
+              <li><a href="">Offers</a></li>
+              <li><a href="">Track Order</a></li>
+            </div>
+            <div class="icon-nav flex gap-8 mt-4">
+              <li class="flex gap-2">
+                <div class="location-icon logo-normal">
+                  <i class="fa-solid fa-location-dot"></i>
                 </div>
-              </div>
-            </li>
-            <li>
-              <div class="cart-logo">
-                <i class="fa-solid fa-cart-shopping"></i>
-              </div>
-            </li>
-            <li><a href="#">Login</a></li>
+                <div class="address-detail flex flex-col">
+                  <div class="upper-text text-sm text-[#ffce74]">
+                    Deliver to
+                  </div>
+                  <div class="lower-text font-bold">
+                    New York, USA <i class="fa-solid fa-angle-down"></i>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="cart-logo logo-normal">
+                  <a href="#">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </a>
+                </div>
+              </li>
+              <li><a href="#" class="login-btn-nav">Login</a></li>
+            </div>
           </ul>
         </nav>
+
+        <div class="hero md:flex justify-between mx-4 mt-2">
+          <div class="hero-text">
+            <div class="hero-main-heading-1">Delicious Food,</div>
+            <div class="hero-main-heading-2">Delivered Fast</div>
+            <div class="hero-sub-heading">
+              Order from your favourite restaurants and get it delivered to your
+              doorstep.
+            </div>
+
+            <div class="hero-search-bar flex justify-around gap-2">
+              <div class="hero-search-icon logo-normal pt-0.5">
+                <i class="fa-solid fa-location-dot search-location-icon"></i>
+              </div>
+              <div class="hero-section-search-text pt-0.5">
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Enter your delivery address"
+                />
+              </div>
+              <div class="hero-search-btn">
+                <a href="#" class="login-btn-nav">Find Food</a>
+              </div>
+            </div>
+            <div class="features">
+              <div class="feature-1">
+                <div class="feature-icon">
+                  <i class="fa-solid fa-truck-fast"></i>
+                </div>
+                <div class="feature-text">
+                  <div class="feature-text-heading">Fast Delivery</div>
+                  <div class="feature-text-sub-heading">On time, Everytime</div>
+                </div>
+              </div>
+              <div class="feature-2">
+                <div class="feature-icon">
+                  <i class="fa-solid fa-bahai"></i>
+                </div>
+                <div class="feature-text">
+                  <div class="feature-text-heading">Best Offers</div>
+                  <div class="feature-text-sub-heading">Up to 50% Off</div>
+                </div>
+              </div>
+              <div class="feature-3">
+                <div class="feature-icon">
+                  <i class="fa-solid fa-shield"></i>
+                </div>
+                <div class="feature-text">
+                  <div class="feature-text-heading">Secure Payment</div>
+                  <div class="feature-text-sub-heading">100% safe & Secure</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img
+              src="project-image/hero section/hero.jpg"
+              alt="an image of food"
+              class="hero-image"
+            />
+          </div>
+        </div>
       </div>
       <div class="food-category"></div>
       <div class="offer-section"></div>
