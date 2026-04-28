@@ -1,1 +1,140 @@
 @import "tailwindcss";
+.main-logo {
+  height: 80px;
+  width: 80px;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+body {
+  font-family: Inter;
+}
+.logo-normal {
+  font-size: 18px;
+}
+header {
+  background-color: #fef4ef;
+  padding: 10px;
+  cursor: pointer;
+}
+span {
+  font-weight: 800;
+  color: #e0a25b;
+}
+.location-icon,
+.cart-logo {
+  margin-top: 10px;
+}
+.login-btn-nav {
+  background: #ff7a1a;
+  color: white;
+  border-radius: 8px;
+  padding: 8px 18px;
+  margin-top: -2px;
+  display: inline-block;
+  font-size: 16px;
+}
+nav{
+    background-color: #fff;
+}
+.nav-link {
+  font-size: 18px;
+  font-weight: 600;
+}
+/* hero section */
+.hero-section {
+  height: 95vh;
+  background-color: #fefbfa;
+  /* background-color: #fff; */
+}
+.hero {
+  padding: 30px;
+}
+.hero-image {
+  height: 380px;
+  width: 400px;
+  border-radius: 50%;
+  position: relative;
+}
+.hero-search-bar {
+  box-shadow: 0 0 0 2px #e5e5e5;
+  padding: 8px;
+  width: 80%;
+  border-radius: 16px;
+}
+.search-box-input:focus{
+outline: none;
+box-shadow: none;
+}
+.search-location-icon,
+.feature-icon {
+  color: #ff7a1a;
+}
+.hero-heading {
+  font-size: 48px;
+  font-weight: 700;
+  color: #111;
+  line-height: 1.2;
+  margin-top: -4px;
+}
+.hero-main-heading-2 {
+  color: orange;
+  margin-bottom: 30px;
+}
+.hero-sub-heading {
+  font-size: 18px;
+  color: #666;
+  width: 60%;
+  line-height: 1.6;
+  margin-bottom: 18px;
+  /* background-color: red; */
+}
+.hero-search-bar {
+  margin-bottom: 18px;
+}
+.features {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 10px 8px 10px;
+  margin-top: 38px;
+}
+.feature-icon {
+  background: #ffe8d9; 
+  padding: 12px; 
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.feature-text-heading{
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+.feature-text-sub-heading{
+    font-size: 13px;
+    font-weight: 500;
+    color: #666;
+}
+.hot-deals{
+    background-color: #fff;
+    width: 200px;
+    border: 2px solid rgba(255, 235, 205, 0.654);
+    padding: 8px 18px;
+    border-radius: 16px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.hot-upperText{
+    font-size: 18px;
+    font-weight: 700;
+}
+.hot-lowerText{
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+}
+
+
