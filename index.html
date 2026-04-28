@@ -6,6 +6,7 @@
     <title>Foodie</title>
     <link rel="stylesheet" href="/src/input.css" />
     <link rel="stylesheet" href="src/output.css" />
+    <link rel="stylesheet" href="src/foodCategory.css" />
     <script
       src="https://kit.fontawesome.com/79fc14f2fb.js"
       crossorigin="anonymous"
@@ -149,7 +150,89 @@
           </div>
         </div>
       </div>
-      <div class="food-category"></div>
+
+      <div class="food-category p-8">
+        <div class="food-category-heading flex justify-between mb-4">
+          <p>Order by Category</p>
+          <div class="random-div relative">
+            <a href="section/orders.html">View all categories &rarr;</a>
+          </div>
+        </div>
+
+        <div
+          class="food-category-items-list grid grid-cols-2 sm:grid-cols-4 md:grid-cols-8 md:gap-6"
+        >
+          <div class="food-category-image-items flex flex-col">
+            <a href=""
+              ><img
+                src="/project-image/food-category/pizaa.jpg"
+                alt="Pizaa"
+                class="food-img-cateory"
+            /></a>
+            <span>Pizaa</span>
+          </div>
+          <div class="food-category-image-items flex flex-col">
+            <a href=""
+              ><img
+                src="/project-image/food-category/burger.jpg"
+                alt="Burger"
+                class="food-img-cateory"
+            /></a>
+            <span>Burger</span>
+          </div>
+          <div class="food-category-image-items flex flex-col">
+            <a href="">
+              <img
+                src="/project-image/food-category/sushi.jpg"
+                alt="Sushi"
+                class="food-img-cateory"
+            /></a>
+            <span>Sushi</span>
+          </div>
+          <div class="food-category-image-items flex flex-col">
+            <a href="">
+              <img
+                src="/project-image/food-category/deserts.jpg"
+                alt="Deserts"
+                class="food-img-cateory"
+            /></a>
+            <span>Deserts</span>
+          </div>
+          <div class="food-category-image-items flex flex-col">
+            <a href="">
+              <img
+                src="/project-image/food-category/drinks.jpg"
+                alt="Drinks"
+                class="food-img-cateory"
+            /></a>
+            <span>Drinks</span>
+          </div>
+          <div class="food-category-image-items flex flex-col">
+            <a href="">
+              <img
+                src="/project-image/food-category/healthy.jpg"
+                alt="Healthy"
+                class="food-img-cateory"
+            /></a>
+            <span>Healthy</span>
+          </div>
+          <div class="food-category-image-items flex flex-col">
+            <a href="">
+              <img
+                src="/project-image/food-category/chinese.jpg"
+                alt="chinese"
+                class="food-img-cateory"
+            /></a>
+            <span>Chinese</span>
+          </div>
+          <div class="food-category-image-items flex flex-col">
+            <a href="section/orders.html" class="food-image-category">
+              <i class="fa-solid fa-ellipsis more-icon"></i>
+            </a>
+            <span>More</span>
+          </div>
+        </div>
+      </div>
       <div class="offer-section"></div>
       <div class="restaurant-section"></div>
       <div class="app-details-section"></div>
