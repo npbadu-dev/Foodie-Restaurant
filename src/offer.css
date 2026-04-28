@@ -1,0 +1,11 @@
+.offer-section {
+  padding: 32px;
+}
+.offer-heading {
+  font-size: 22px;
+  font-weight: 700;
+  align-items: center;
+}
+.offer-card-item{
+    background-color: #fef4ef;
+}
