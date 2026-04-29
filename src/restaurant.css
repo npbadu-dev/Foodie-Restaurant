@@ -1,0 +1,22 @@
+.restaurant-card-item{
+    border-radius: 14px;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+}
+.restaruant-card-img img{
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.card-image-adjust{
+    height: 190px;
+    width: 285px;
+    overflow: hidden;
+}
+.restaruant-name{
+    font-size: 18px;
+    font-weight: 700;
+}
+.restaruant-card-text-subheading{
+    
+    color: #888;
+    font-size: 14px;
+}
