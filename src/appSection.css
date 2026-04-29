@@ -1,0 +1,41 @@
+.app-img{
+    width: 180px;
+    display: inline-block;
+}
+.app-store-img{
+    height: 50px;
+}
+.app-details-section{
+    background-color: #f5ebe6;
+    border-radius: 14px;
+}
+.app-left-details{
+    padding: 32px 0px 32px 42px;
+}
+.app-details-heading{
+    color: #111;
+    font-size: 28px;
+    font-weight: 800;
+    margin-top: 48px;
+}
+.app-details-sub-heading{
+    color: #666;
+    font-size: 18px;
+    width: 400px;
+    margin-bottom: 32px;
+}
+.app-details-btn{
+    cursor: pointer;
+    margin-bottom: 54px;
+}
+.app-store-img{
+    margin-top: 34px;
+}
+.app-img-demo{
+    overflow: hidden;
+    top: -40px;
+    left: -120px;
+}
+
+
+
