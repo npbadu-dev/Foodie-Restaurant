@@ -1,0 +1,39 @@
+.footer-logo{
+    height: 64px;
+}
+.footer-col-1{
+    padding-left: 32px;
+}
+.footer-col-1-logo{
+    align-items: center;
+}
+.logo-name{
+    font-size: 18px;
+    font-weight: 700;
+}
+.footer-heading{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.footer-sub-heading{
+    font-size: 18px;
+    font-width: 500;
+    color: #555;
+}
+.footer-sub-heading a:hover{
+color: blue;
+text-decoration: underline blue;
+}
+.footer-col-1-description{
+    color: #666;
+    margin-bottom: 16px;
+}
+.footer-col-1-social-media-logo{
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 52px;
+}
+.footer-col-1-copyright{
+    color: #777;
+}
