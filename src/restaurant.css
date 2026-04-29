@@ -1,22 +1,41 @@
-.restaurant-card-item{
-    border-radius: 14px;
-    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+.restaurant-card-item {
+  border-radius: 14px;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
 }
-.restaruant-card-img img{
-    border-top-left-radius: 14px;
-    border-top-right-radius: 14px;
+.restaruant-card-img img {
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
 }
-.card-image-adjust{
-    height: 190px;
-    width: 285px;
-    overflow: hidden;
+.card-image-adjust {
+  height: 190px;
+  width: 285px;
+  overflow: hidden;
 }
-.restaruant-name{
-    font-size: 18px;
-    font-weight: 700;
+.restaruant-name {
+  font-size: 18px;
+  font-weight: 700;
 }
-.restaruant-card-text-subheading{
-    
-    color: #888;
-    font-size: 14px;
+.restaruant-card-text-subheading {
+  color: #888;
+  font-size: 14px;
+}
+
+.hot-topic {
+  color: #fff;
+  font-weight: 600;
+  background-color: green;
+  width: 100px;
+  text-align: center;
+  padding: 4px;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.hot-orangered{
+    background-color: orangered;
+}
+.hot-orange{
+    background-color: orange;
 }
