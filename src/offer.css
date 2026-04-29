@@ -1,11 +1,50 @@
 .offer-section {
   padding: 32px;
 }
-.offer-heading {
+
+.offer-card-item {
+  background-color: #f5ebe6;
+  border-radius: 16px;
+  overflow: hidden;
+  padding: 20px;
+  align-items: center;
+  cursor: pointer;
+}
+.offer-card-item-image img {
+  width: 140px;
+  border-radius: 50%;
+}
+.off-heading {
   font-size: 22px;
-  font-weight: 700;
+  font-weight: bold;
+}
+.off-orange {
+  color: #d35400;
+}
+
+.off-sub-heading {
+  font-size: 14px;
+  margin-top: 5px;
+}
+.coupon-code {
+  margin-top: 10px;
+  background: #fff;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+.offer-card-item-image {
+  display: flex;
+  justify-content: flex-end;
   align-items: center;
 }
-.offer-card-item{
-    background-color: #fef4ef;
+.card-animation {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+.card-animation:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
