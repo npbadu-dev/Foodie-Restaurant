@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Orders Category</title>
-     <link rel="stylesheet" href="../src/input.css" />
+    <link rel="stylesheet" href="../src/input.css" />
     <link rel="stylesheet" href="../src/output.css" />
+    <link rel="stylesheet" href="../src/offer.css" />
     <script
       src="https://kit.fontawesome.com/79fc14f2fb.js"
       crossorigin="anonymous"
@@ -16,16 +17,19 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="orders.css" />
+    <link rel="stylesheet" href="../src/review.css">
+    <link rel="stylesheet" href="../src/footer.css">
   </head>
   <body>
-    <div class="hero-section">
+    <div class="nav-section">
       <header class="text-center font-bold w-screen">
         <div class="text">
           🎉 Get 50% OFF on your first order - Use Code:
           <span><u>FOOD50</u></span>
         </div>
       </header>
-      <nav class="hidden md:block">
+      <nav class="hidden lg:block">
         <ul class="flex justify-around">
           <li>
             <a href="#"
@@ -66,6 +70,249 @@
         </ul>
       </nav>
     </div>
+
+    <div
+      class="search-section flex items-center justify-center relative overflow-hidden p-3"
+    >
+      <div class="search-container flex items-center">
+        <input type="text" placeholder="Search for cuisines or dishes..." />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </div>
+    <div class="order-section-food-category px-18 py-10">
+      <div class="order-section-main-heading">All Category</div>
+      <div class="food-category-list grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        <a href="restaurants.html">
+          <div class="food-item card-animation mt-5">
+            <img
+              src="../project-image/food-category/pizaa.jpg"
+              alt="pizaa"
+              class="food-img"
+            />
+            <div class="food-details flex flex-col items-center mt-5">
+              <div class="food-name">Pizaa</div>
+              <div class="restaurant-list">245 Restaurants</div>
+            </div>
+          </div>
+        </a>
+
+        <a href="restaurants.html">
+          <div class="food-item card-animation mt-5">
+            <img
+              src="../project-image/food-category/breakfast.jpg"
+              alt="breakfast"
+              class="food-img"
+            />
+            <div class="food-details flex flex-col items-center mt-5">
+              <div class="food-name">Breakfast</div>
+              <div class="restaurant-list">87 Restaurants</div>
+            </div>
+          </div>
+        </a>
+
+        <a href="restaurants.html">
+          <div class="food-item card-animation mt-5">
+            <img
+              src="../project-image/food-category/burger.jpg"
+              alt="burger"
+              class="food-img"
+            />
+            <div class="food-details flex flex-col items-center mt-5">
+              <div class="food-name">Burger</div>
+              <div class="restaurant-list">198 Restaurants</div>
+            </div>
+          </div>
+        </a>
+
+        <a href="restaurants.html">
+          <div class="food-item card-animation mt-5">
+            <img
+              src="../project-image/food-category/chinese.jpg"
+              alt="chinese"
+              class="food-img"
+            />
+            <div class="food-details flex flex-col items-center mt-5">
+              <div class="food-name">Chinese</div>
+              <div class="restaurant-list">170 Restaurants</div>
+            </div>
+          </div>
+        </a>
+
+        <a href="restaurants.html">
+          <div class="food-item card-animation mt-5">
+            <img
+              src="../project-image/food-category/deserts.jpg"
+              alt="deserts"
+              class="food-img"
+            />
+            <div class="food-details flex flex-col items-center mt-5">
+              <div class="food-name">Deserts</div>
+              <div class="restaurant-list">110 Restaurants</div>
+            </div>
+          </div>
+        </a>
+
+        <a href="restaurants.html">
+          <div class="food-item card-animation mt-5">
+            <img
+              src="../project-image/food-category/drinks.jpg"
+              alt="drinks"
+              class="food-img"
+            />
+            <div class="food-details flex flex-col items-center mt-5">
+              <div class="food-name">Drinks</div>
+              <div class="restaurant-list">98 Restaurants</div>
+            </div>
+          </div>
+        </a>
+
+        <a href="restaurants.html">
+          <div class="food-item card-animation mt-5">
+            <img
+              src="../project-image/food-category/healthy.jpg"
+              alt="healthy"
+              class="food-img"
+            />
+            <div class="food-details flex flex-col items-center mt-5">
+              <div class="food-name">Healthy</div>
+              <div class="restaurant-list">95 Restaurants</div>
+            </div>
+          </div>
+        </a>
+
+        <a href="restaurants.html">
+          <div class="food-item card-animation mt-5">
+            <img
+              src="../project-image/food-category/indian-food.jpg"
+              alt="indian food"
+              class="food-img"
+            />
+            <div class="food-details flex flex-col items-center mt-5">
+              <div class="food-name">Indian</div>
+              <div class="restaurant-list">156 Restaurants</div>
+            </div>
+          </div>
+        </a>
+
+        <a href="restaurants.html">
+          <div class="food-item card-animation mt-5">
+            <img
+              src="../project-image/food-category/italian.jpg"
+              alt="italian"
+              class="food-img"
+            />
+            <div class="food-details flex flex-col items-center mt-5">
+              <div class="food-name">Italian</div>
+              <div class="restaurant-list">140 Restaurants</div>
+            </div>
+          </div>
+        </a>
+
+        <a href="restaurants.html">
+          <div class="food-item card-animation mt-5">
+            <img
+              src="../project-image/food-category/nepali-food.jpg"
+              alt="Nepali food"
+              class="food-img"
+            />
+            <div class="food-details flex flex-col items-center mt-5">
+              <div class="food-name">Nepali</div>
+              <div class="restaurant-list">267 Restaurants</div>
+            </div>
+          </div>
+        </a>
+
+        <a href="restaurants.html">
+          <div class="food-item card-animation mt-5">
+            <img
+              src="../project-image/food-category/sushi.jpg"
+              alt="sushi"
+              class="food-img"
+            />
+            <div class="food-details flex flex-col items-center mt-5">
+              <div class="food-name">Sushi</div>
+              <div class="restaurant-list">132 Restaurants</div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="subscribe-section flex justify-around">
+      <div class="email-icon">
+        <i class="fa-solid fa-envelope"></i>
+      </div>
+      <div class="few-text">
+        <div class="few-text-heading">Stay up to date with our Offers</div>
+        <div class="few-text-sub-heading">
+          Subscribe to our newsletter and never miss a deal!
+        </div>
+      </div>
+      <div class="email-address-fill-up">
+        <input
+          type="text"
+          class="mail-box-input"
+          placeholder="Enter your email address"
+        />
+        <a href="#" class="login-btn-nav">Subscribe</a>
+      </div>
+    </div>
+    <footer>
+        <div class="footer-section grid grid-cols-4 p-10">
+          <div class="footer-col-1 footer-col">
+            <div class="footer-col-1-logo flex gap-2.5">
+              <a href="#">
+                <img
+                  src="../project-image/logo.png"
+                  alt="Logo"
+                  class="footer-logo"
+                />
+              </a>
+              <div class="logo-name">Foodie</div>
+            </div>
+            <div class="footer-col-1-description">
+              <div class="footer-desc-1">Delicious food, Deliverd fast</div>
+              <div class="footer-desc-2">to your doorstep</div>
+            </div>
+            <div class="footer-col-1-social-media-logo">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="footer-col-1-copyright">
+              &copy; 2026 Foodie. All rights reserved.
+            </div>
+          </div>
+
+          <div class="ml-24 footer-col-2 footer-col flex flex-col">
+            <div class="footer-heading">Company</div>
+            <div class="footer-sub-heading"><a href="">About Us</a></div>
+            <div class="footer-sub-heading"><a href="">Carrers</a></div>
+            <div class="footer-sub-heading"><a href="">Blog</a></div>
+            <div class="footer-sub-heading"><a href="">Press</a></div>
+            <div class="footer-sub-heading"><a href="">Contact Us</a></div>
+          </div>
+
+          <div class="ml-24 footer-col-3 footer-col">
+            <div class="footer-heading">Support</div>
+            <div class="footer-sub-heading"><a href="">Help Center</a></div>
+            <div class="footer-sub-heading"><a href="">Track Order</a></div>
+            <div class="footer-sub-heading"><a href="">Shopping info</a></div>
+            <div class="footer-sub-heading"><a href="">Returns</a></div>
+            <div class="footer-sub-heading">
+              <a href="">Terms and Condition</a>
+            </div>
+          </div>
+          <div class="ml-24 footer-col-4 footer-col">
+            <div class="footer-heading">Top Cities</div>
+            <div class="footer-sub-heading"><a href="">New York</a></div>
+            <div class="footer-sub-heading"><a href="">Los Angeles</a></div>
+            <div class="footer-sub-heading"><a href="">Chicago</a></div>
+            <div class="footer-sub-heading"><a href="">Houston</a></div>
+            <div class="footer-sub-heading"><a href="">Miami</a></div>
+          </div>
+        </div>
+      </footer>
     <script src="src/script.js"></script>
   </body>
 </html>
