@@ -39,3 +39,41 @@
   top: 35%;
   left: -18%;
 }
+
+/* ******************************* */
+/* Subscribe Section */
+/* *********************************** */
+.subscribe-section{
+  background-color: #f5ebe6;
+  margin: 32px 56px;
+  padding-top: 28px;
+  padding-bottom: 20px;
+  border-radius: 18px;
+}
+.mail-box-input{
+  outline: none;
+  box-shadow: none;
+  background-color: white;
+  border-radius: 14px;
+  padding: 7px 22px;
+}
+.email-icon{
+  font-size: 22px;
+  background-color: orangered;
+  padding: 10px 12px;
+  border-radius: 50%;
+}
+.few-text-heading{
+  font-size: 18px;
+  font-weight: 700;
+}
+.few-text-sub-heading{
+  font-size: 18px;
+  color: #555;
+}
+.email-address-fill-up{
+  padding-top: 10px;
+}
+.few-text{
+  
+}
